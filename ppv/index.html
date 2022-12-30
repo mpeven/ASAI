@@ -57,12 +57,19 @@
                     aria-selected="false">
                     2022 Week 15
                 </button>
-                <button class="nav-link active"
+                <button class="nav-link"
                     id="s2022-16-tab" data-bs-toggle="pill"
                     data-bs-target="#s2022-16-tab-pane" type="button" role="tab"
                     aria-controls="s2022-16-tab-pane"
-                    aria-selected="true">
+                    aria-selected="false">
                     2022 Week 16
+                </button>
+                <button class="nav-link active"
+                    id="s2022-17-tab" data-bs-toggle="pill"
+                    data-bs-target="#s2022-17-tab-pane" type="button" role="tab"
+                    aria-controls="s2022-17-tab-pane"
+                    aria-selected="true">
+                    2022 Week 17
                 </button>
             </div>
         </nav>
@@ -2275,7 +2282,7 @@
                 <br />
                 <hr />
             </div>
-            <div class="tab-pane fade show active"
+            <div class="tab-pane fade "
                 id="s2022-16-tab-pane" role="tabpanel"
                 aria-labelledby="s2022-16-tab" tabindex="0">
                 <div>
@@ -2920,21 +2927,21 @@
                         <tbody>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Buccaneers</td>
-                                <td></td>
+                                <td>-3.0</td>
                                 <td>-3.5</td>
                                 <td>-7.5</td>
-                                <td class="">-8.5</td>
-                                <td rowspan="2" style="border-left: 1px solid black;"></td>
+                                <td class="background-color: table-danger">-8.5</td>
+                                <td rowspan="2" style="border-left: 1px solid black;">35.0</td>
                                 <td rowspan="2">40.5</td>
                                 <td rowspan="2">41.5</td>
                                 <td rowspan="2">39.3</td>
                             </tr>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Cardinals</td>
-                                <td></td>
+                                <td>3.0</td>
                                 <td>3.5</td>
                                 <td>7.5</td>
-                                <td class="">8.5</td>
+                                <td class="background-color: table-danger">8.5</td>
                             </tr>
                         </tbody>
                     </table>
@@ -2971,21 +2978,21 @@
                         <tbody>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Packers</td>
-                                <td></td>
+                                <td>-6.0</td>
                                 <td>4.5</td>
                                 <td>3.5</td>
-                                <td class="">3.0</td>
-                                <td rowspan="2" style="border-left: 1px solid black;"></td>
+                                <td class="table-success">3.0</td>
+                                <td rowspan="2" style="border-left: 1px solid black;">46.0</td>
                                 <td rowspan="2">46.5</td>
                                 <td rowspan="2">49.5</td>
                                 <td rowspan="2">48.4</td>
                             </tr>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Dolphins</td>
-                                <td></td>
+                                <td>6.0</td>
                                 <td>-4.5</td>
                                 <td>-3.5</td>
-                                <td class="">-3.0</td>
+                                <td class="table-success">-3.0</td>
                             </tr>
                         </tbody>
                     </table>
@@ -3022,21 +3029,21 @@
                         <tbody>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Broncos</td>
-                                <td></td>
+                                <td>37.0</td>
                                 <td>-1.0</td>
                                 <td>-3.0</td>
-                                <td class="">-2.4</td>
-                                <td rowspan="2" style="border-left: 1px solid black;"></td>
+                                <td class="table-success">-2.4</td>
+                                <td rowspan="2" style="border-left: 1px solid black;">65.0</td>
                                 <td rowspan="2">35.5</td>
                                 <td rowspan="2">36.0</td>
                                 <td rowspan="2">36.2</td>
                             </tr>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Rams</td>
-                                <td></td>
+                                <td>-37.0</td>
                                 <td>1.0</td>
                                 <td>3.0</td>
-                                <td class="">2.4</td>
+                                <td class="table-success">2.4</td>
                             </tr>
                         </tbody>
                     </table>
@@ -3073,21 +3080,76 @@
                         <tbody>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Chargers</td>
-                                <td></td>
+                                <td>-17.0</td>
                                 <td>-3.0</td>
                                 <td>-3.5</td>
-                                <td class="">-3.7</td>
-                                <td rowspan="2" style="border-left: 1px solid black;"></td>
+                                <td class="table-success">-3.7</td>
+                                <td rowspan="2" style="border-left: 1px solid black;">23.0</td>
                                 <td rowspan="2">47.5</td>
                                 <td rowspan="2">44.5</td>
                                 <td rowspan="2">46.1</td>
                             </tr>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Colts</td>
-                                <td></td>
+                                <td>17.0</td>
                                 <td>3.0</td>
                                 <td>3.5</td>
-                                <td class="">3.7</td>
+                                <td class="table-success">3.7</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br />
+                <hr />
+            </div>
+            <div class="tab-pane fade show active"
+                id="s2022-17-tab-pane" role="tabpanel"
+                aria-labelledby="s2022-17-tab" tabindex="0">
+                <div>
+                    <table class="table">
+                        <thead>
+                            <tr class="table-active">
+                                <th scope="col" rowspan="2" style="width: 120px; border-right: 1px solid black;">
+                                    Thursday 12/29 08:15PM
+                                </th>
+                                <th scope="col" colspan="4" style="border-right: 1px solid black;">
+                                    Spread
+                                </th>
+                                <th scope="col" colspan="4">
+                                    Over Under
+                                </th>
+                            </tr>
+                            <tr class="table-active">
+                                <th>Result</th>
+                                <th>Vegas Opening</th>
+                                <th>Vegas Closing</th>
+                                <th>PPV (Vegas-Adjusted)</th>
+                                <th style="border-left: 1px solid black;">
+                                    Result
+                                </th>
+                                <th>Vegas Opening</th>
+                                <th>Vegas Closing</th>
+                                <th>PPV (Vegas-Adjusted)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: 1px solid black;">Cowboys</td>
+                                <td></td>
+                                <td>-9.5</td>
+                                <td>-13.5</td>
+                                <td class="">-8.1</td>
+                                <td rowspan="2" style="border-left: 1px solid black;"></td>
+                                <td rowspan="2">44.0</td>
+                                <td rowspan="2">40.5</td>
+                                <td rowspan="2">38.5</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1px solid black;">Titans</td>
+                                <td></td>
+                                <td>9.5</td>
+                                <td>13.5</td>
+                                <td class="">8.1</td>
                             </tr>
                         </tbody>
                     </table>
