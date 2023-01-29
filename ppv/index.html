@@ -85,12 +85,19 @@
                     aria-selected="false">
                     2022 Week 19
                 </button>
-                <button class="nav-link active"
+                <button class="nav-link"
                     id="s2022-20-tab" data-bs-toggle="pill"
                     data-bs-target="#s2022-20-tab-pane" type="button" role="tab"
                     aria-controls="s2022-20-tab-pane"
-                    aria-selected="true">
+                    aria-selected="false">
                     2022 Week 20
+                </button>
+                <button class="nav-link active"
+                    id="s2022-21-tab" data-bs-toggle="pill"
+                    data-bs-target="#s2022-21-tab-pane" type="button" role="tab"
+                    aria-controls="s2022-21-tab-pane"
+                    aria-selected="true">
+                    2022 Week 21
                 </button>
             </div>
         </nav>
@@ -5022,7 +5029,7 @@
                 <br />
                 <hr />
             </div>
-            <div class="tab-pane fade show active"
+            <div class="tab-pane fade "
                 id="s2022-20-tab-pane" role="tabpanel"
                 aria-labelledby="s2022-20-tab" tabindex="0">
                 <div>
@@ -5055,21 +5062,21 @@
                         <tbody>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Jaguars</td>
-                                <td></td>
+                                <td>7.0</td>
                                 <td>9.5</td>
                                 <td>9.5</td>
-                                <td class="">15.0</td>
-                                <td rowspan="2" style="border-left: 1px solid black;"></td>
+                                <td class="background-color: table-danger">15.0</td>
+                                <td rowspan="2" style="border-left: 1px solid black;">47.0</td>
                                 <td rowspan="2">51.5</td>
                                 <td rowspan="2">52.0</td>
                                 <td rowspan="2">56.8</td>
                             </tr>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Chiefs</td>
-                                <td></td>
+                                <td>-7.0</td>
                                 <td>-9.5</td>
                                 <td>-9.5</td>
-                                <td class="">-15.0</td>
+                                <td class="background-color: table-danger">-15.0</td>
                             </tr>
                         </tbody>
                     </table>
@@ -5106,21 +5113,21 @@
                         <tbody>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Giants</td>
-                                <td></td>
+                                <td>31.0</td>
                                 <td>7.5</td>
                                 <td>8.0</td>
-                                <td class="">10.6</td>
-                                <td rowspan="2" style="border-left: 1px solid black;"></td>
+                                <td class="table-success">10.6</td>
+                                <td rowspan="2" style="border-left: 1px solid black;">45.0</td>
                                 <td rowspan="2">47.0</td>
-                                <td rowspan="2">48.0</td>
+                                <td rowspan="2">47.5</td>
                                 <td rowspan="2">49.2</td>
                             </tr>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Eagles</td>
-                                <td></td>
+                                <td>-31.0</td>
                                 <td>-7.5</td>
                                 <td>-8.0</td>
-                                <td class="">-10.6</td>
+                                <td class="table-success">-10.6</td>
                             </tr>
                         </tbody>
                     </table>
@@ -5157,21 +5164,21 @@
                         <tbody>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Bengals</td>
-                                <td></td>
+                                <td>-17.0</td>
                                 <td>3.5</td>
                                 <td>6.0</td>
-                                <td class="">3.8</td>
-                                <td rowspan="2" style="border-left: 1px solid black;"></td>
+                                <td class="table-success">3.8</td>
+                                <td rowspan="2" style="border-left: 1px solid black;">37.0</td>
                                 <td rowspan="2">49.5</td>
-                                <td rowspan="2">49.0</td>
+                                <td rowspan="2">48.5</td>
                                 <td rowspan="2">51.8</td>
                             </tr>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Bills</td>
-                                <td></td>
+                                <td>17.0</td>
                                 <td>-3.5</td>
                                 <td>-6.0</td>
-                                <td class="">-3.8</td>
+                                <td class="table-success">-3.8</td>
                             </tr>
                         </tbody>
                     </table>
@@ -5208,21 +5215,127 @@
                         <tbody>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">Cowboys</td>
-                                <td></td>
+                                <td>7.0</td>
                                 <td>4.0</td>
-                                <td>4.0</td>
-                                <td class="">0.2</td>
-                                <td rowspan="2" style="border-left: 1px solid black;"></td>
+                                <td>3.5</td>
+                                <td class="background-color: table-danger">0.2</td>
+                                <td rowspan="2" style="border-left: 1px solid black;">31.0</td>
                                 <td rowspan="2">46.0</td>
                                 <td rowspan="2">46.5</td>
                                 <td rowspan="2">44.4</td>
                             </tr>
                             <tr>
                                 <th scope="row" style="border-right: 1px solid black;">49ers</td>
+                                <td>-7.0</td>
+                                <td>-4.0</td>
+                                <td>-3.5</td>
+                                <td class="background-color: table-danger">-0.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br />
+                <hr />
+            </div>
+            <div class="tab-pane fade show active"
+                id="s2022-21-tab-pane" role="tabpanel"
+                aria-labelledby="s2022-21-tab" tabindex="0">
+                <div>
+                    <table class="table">
+                        <thead>
+                            <tr class="table-active">
+                                <th scope="col" rowspan="2" style="width: 120px; border-right: 1px solid black;">
+                                    Sunday 01/29 03:00PM
+                                </th>
+                                <th scope="col" colspan="4" style="border-right: 1px solid black;">
+                                    Spread
+                                </th>
+                                <th scope="col" colspan="4">
+                                    Over Under
+                                </th>
+                            </tr>
+                            <tr class="table-active">
+                                <th>Result</th>
+                                <th>Vegas Opening</th>
+                                <th>Vegas Closing</th>
+                                <th>PPV (Vegas-Adjusted)</th>
+                                <th style="border-left: 1px solid black;">
+                                    Result
+                                </th>
+                                <th>Vegas Opening</th>
+                                <th>Vegas Closing</th>
+                                <th>PPV (Vegas-Adjusted)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: 1px solid black;">49ers</td>
                                 <td></td>
-                                <td>-4.0</td>
-                                <td>-4.0</td>
-                                <td class="">-0.2</td>
+                                <td>2.5</td>
+                                <td>3.0</td>
+                                <td class="">7.3</td>
+                                <td rowspan="2" style="border-left: 1px solid black;"></td>
+                                <td rowspan="2">45.0</td>
+                                <td rowspan="2">45.0</td>
+                                <td rowspan="2">46.5</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1px solid black;">Eagles</td>
+                                <td></td>
+                                <td>-2.5</td>
+                                <td>-3.0</td>
+                                <td class="">-7.3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br />
+                <hr />
+                <div>
+                    <table class="table">
+                        <thead>
+                            <tr class="table-active">
+                                <th scope="col" rowspan="2" style="width: 120px; border-right: 1px solid black;">
+                                    Sunday 01/29 06:30PM
+                                </th>
+                                <th scope="col" colspan="4" style="border-right: 1px solid black;">
+                                    Spread
+                                </th>
+                                <th scope="col" colspan="4">
+                                    Over Under
+                                </th>
+                            </tr>
+                            <tr class="table-active">
+                                <th>Result</th>
+                                <th>Vegas Opening</th>
+                                <th>Vegas Closing</th>
+                                <th>PPV (Vegas-Adjusted)</th>
+                                <th style="border-left: 1px solid black;">
+                                    Result
+                                </th>
+                                <th>Vegas Opening</th>
+                                <th>Vegas Closing</th>
+                                <th>PPV (Vegas-Adjusted)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: 1px solid black;">Bengals</td>
+                                <td></td>
+                                <td>1.5</td>
+                                <td>2.0</td>
+                                <td class="">2.3</td>
+                                <td rowspan="2" style="border-left: 1px solid black;"></td>
+                                <td rowspan="2">47.5</td>
+                                <td rowspan="2">47.5</td>
+                                <td rowspan="2">51.5</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1px solid black;">Chiefs</td>
+                                <td></td>
+                                <td>-1.5</td>
+                                <td>-2.0</td>
+                                <td class="">-2.3</td>
                             </tr>
                         </tbody>
                     </table>
